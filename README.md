@@ -184,7 +184,7 @@ To deploy our project's MBTI classification model on Hugging Face, download the 
 - `labels.joblib` – Label encoder saved in joblib format  
 
 > **Note:** The `bert_16/` model directory is not included in `API.zip` due to file size limitations.  
-> Please manually download the `bert_16/` folder from [this link](#). The folder should contain:  
+> Please manually download the `bert_16/` folder from [this link](https://drive.google.com/drive/folders/1R3xjMuoZvrQme6ex7OSevS4_zy-vuPar?usp=drive_link). The folder should contain:  
 > - `config.json`  
 > - `model.safetensors`  
 > - `special_tokens_map.json`  
