@@ -9,8 +9,8 @@
 ## Instruction for use
 1. Download the files `twitter_MBTI.csv` and `mbti_1.csv`.
 2. Download the following CSVs from Google Drive:
-- [mbti_1.csv](https://drive.google.com/file/d/1hlGPiIc_SxBB6RQLbSV_AJsaX4NiAZwW/view?usp=drive_link)  
-- [twitter_MBTI.csv](https://drive.google.com/file/d/1gp-K6AQPMj81PQ4folgcCIH4btABXh5i/view?usp=drive_link)
+  - [mbti_1.csv](https://drive.google.com/file/d/1hlGPiIc_SxBB6RQLbSV_AJsaX4NiAZwW/view?usp=drive_link)  
+  - [twitter_MBTI.csv](https://drive.google.com/file/d/1gp-K6AQPMj81PQ4folgcCIH4btABXh5i/view?usp=drive_link)
 3. For all code file, update the file paths for `Kaggle_ds` and `tianchi_ds` in each code file to your own directories.
 4. The code should then run smoothly.
 ---
@@ -26,23 +26,23 @@
 
 2. Embedding 
 
-- After preprocessing the text data, generate embeddings and save the results into embedded_df.csv. 
+  - After preprocessing the text data, generate embeddings and save the results into embedded_df.csv. 
 
 3. Data Preparation 
 
-- Load the embedded_df.csv file containing embeddings and labels. 
+  - Load the embedded_df.csv file containing embeddings and labels. 
 
 4. Model Training: 16-Type Classification (label_16) 
 
-- Train a logistic regression model on 16 MBTI types. 
+  - Train a logistic regression model on 16 MBTI types. 
 
-- Evaluate performance on validation and test sets with accuracy, macro F1 score, and confusion matrices. 
+  - Evaluate performance on validation and test sets with accuracy, macro F1 score, and confusion matrices. 
 
 5. Model Training: 4-Dimension Binary Classification (E, N, T, P) 
 
-- Train separate logistic regression models for each binary dimension. 
+  - Train separate logistic regression models for each binary dimension. 
 
-- Evaluate performance with accuracy and confusion matrices.
+  - Evaluate performance with accuracy and confusion matrices.
 
 ---
 ## BERT 16+BERT 4 classification model
