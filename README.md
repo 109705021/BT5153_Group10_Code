@@ -46,7 +46,7 @@
 
 ---
 ## BERT 16+BERT 4 classification model
-** MBTI_classification_BERT16_and_BERT_4.ipynb**: BERT-based MLP model for 16 classification and 4 classification
+**MBTI_classification_BERT16_and_BERT_4.ipynb**: BERT-based MLP model for 16 classification and 4 classification
 - **Final Model**: `bert-base-uncased` from Hugging Face + MLP
 - **16-Type Classification Model**  
   - Fine-tune and select the best model  
